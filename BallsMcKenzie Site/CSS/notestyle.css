@@ -1,0 +1,39 @@
+/* CASCADING STYLE SHEET */
+
+body {
+	background-color:#fdffb8
+}
+
+.redtext {
+	
+	color:#ff0000;
+	text-align:left;
+	font-family:sans-serif;
+	font-size:20;
+	float: left;
+	
+}
+
+.generalbutton {
+	
+	border: none;
+	color:#ffffff;
+	padding: 50px 50px;
+	font-family:garamond;
+	background-color:#FF0000;
+	
+}
+
+.rightalignimage {
+	
+	text-align: right;
+	float: right;
+	
+}
+
+.rightaligntext {
+	
+	text-align: right;
+	float: right;
+	
+}
