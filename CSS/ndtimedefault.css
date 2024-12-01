@@ -1,0 +1,74 @@
+/* CASCADING STYLE SHEET */
+
+body {
+	background-image: url("./CSSAssets/AMRANT.webp")
+}
+
+.redtext {
+	
+	color:#FF0000;
+	text-align: center;
+	font-family:garamond;
+	font-size:50
+	
+	
+}
+
+.screambutton {
+	
+	border: none;
+	color:#ffffff;
+	padding: 50px 50px;
+	font-family:garamond;
+	background-color:#FF0000;
+	
+	position: relative;
+	left: 100px;
+	top: -240px;
+	
+}
+
+.releasebutton {
+	
+	border: none;
+	color:#ffffff;
+	padding: 50px 145px;
+	font-family:garamond;
+	background-color:#FF0000;
+	
+	position: relative;
+	right: 225px;
+	top: -70px;
+	
+}
+
+.meme {
+	
+	text-align: center;
+	width = 300px;
+	
+	position: relative;
+	top: 150px;
+	
+}
+
+.dopaminebutton{
+	
+	border: none;
+	color:#ffffff;
+	padding: 50px 132px;
+	font-family:garamond;
+	background-color:#FF0000;
+	
+	position: relative;
+	right: 550px;
+	top: 110px;
+}
+
+
+audio {
+
+	display: none;
+	
+}
+
