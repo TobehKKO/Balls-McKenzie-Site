@@ -1,0 +1,94 @@
+/* CASCADING STYLE SHEET */
+
+body {
+	background-image: url("./CSSAssets/AMRANT.webp")
+}
+
+.redtext {
+	color: #FF0000;
+	text-align: center;
+	font-family: garamond;
+	font-size: 50px;
+	margin: 50px;
+}
+
+.yellowtext {
+	color: #eaff00;
+	text-align: center;
+	font-family: garamond;
+	font-size: 50px;
+}
+
+a {
+	color: #eaff00;
+	text-align: center;
+	font-family: garamond;
+	font-size: 50px;
+	margin: 50px;
+}
+
+.screambutton {
+	border: none;
+	color: #ffffff;
+	padding: 50px 50px;
+	font-family: garamond;
+	background-color: #FF0000;
+	margin: 25px 25px 25px 25px;
+	padding: 50px 50px 50px 50px;
+	position: relative;
+}
+
+.releasebutton {
+	border: none;
+	color: #ffffff;
+	padding: 50px 145px;
+	font-family: garamond;
+	background-color: #FF0000;
+	margin: 25px 25px 25px 25px;
+	padding: 50px 150px 50px 150px;
+	position: relative;
+}
+
+.dopaminebutton {
+	border: none;
+	color: #ffffff;
+	padding: 50px 132px;
+	font-family: garamond;
+	background-color: #FF0000;
+	margin: 25px 25px 25px 25px;
+	padding: 50px 140px 50px 140px;
+	position: relative;
+}
+
+.meme {
+	max-width: 200px;
+	width: 100%;
+	position: relative;
+}
+
+.memecontainer {
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;	
+}
+
+.memecontainer img {
+
+	object-fit:cover;
+	overflow: visible;
+	width: 400px;
+	height: 500px;
+}
+
+
+
+
+audio {
+
+	display: none;
+	
+}
