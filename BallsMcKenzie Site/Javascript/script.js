@@ -1,8 +1,8 @@
 //Javascript!!!
 
-function allowScream(){
+function allowScream() {
 	
-	var audio = new Audio("\BallsMcKenzie Site\Javascript\jsassets\icantdie.mp3");
+	var audio = new Audio(".\\Javascript\\jsassets\\icantdie.mp3");
 	audio.loop = true;
 	audio.play();
 
@@ -14,24 +14,23 @@ function closeSite(){
 	
 }
 
-function getRandomMeme(){
-	
-	var index = Math.floor(Math.random()*23);
-	return memesArray[index];
-}
+function dopamine() {
 
-function dopamine(){
+	var index = Math.floor(Math.random()*92);
+	index += 1;	
 
-	var index = Math.floor(Math.random()*23);
-	index += 1;
+	if (index < 10) {
 
-	if(index < 10){
-		
-		document.getElementById('memetemplate').src = '\\BallsMcKenzie Site\\Javascript\\jsassets\\DopamineMemes\\meme00' + index + '.jpg';
+		document.getElementById('memetemplate').src = '.\\Javascript\\jsassets\\DopamineMemes\\meme00' + index + '.jpg';
 	}
-	else{
-		
-		document.getElementById('memetemplate').src = '\\BallsMcKenzie Site\\Javascript\\jsassets\\DopamineMemes\\meme0' + index + '.jpg';
-		
+	else if (index < 24) {
+
+		document.getElementById('memetemplate').src = '.\\Javascript\\jsassets\\DopamineMemes\\meme0' + index + '.jpg';
+
+	}
+	else {
+
+		document.getElementById('memetemplate').src = '.\\Javascript\\jsassets\\DopamineMemes\\meme0' + index + '.jpeg';
+
 	}
 }
