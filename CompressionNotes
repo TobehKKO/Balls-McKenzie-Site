@@ -1,0 +1,21 @@
+LOSSY VS LOSSLESS COMPRESSION
+
+LOSSY
+Lossy compression removes data in order to make a file smaller. It is often used in images/audio files where data can be removed and the file will still be usable.
+Lossy compression cannot be used on text documents as removing text would render the file useless. Instead, lossless compression is used.
+
+LOSSLESS
+Lossless compresssion does not remove ANY data, but is less effective than lossless compression. One way to do this is run length encoding, where strings of consecutive values are squashed into 2 values 
+(e.g A A A A A  =====>  5 A) This may acutally be counter-productive for encoding text documents, however, as all single values n will become 1 n, and there are not a lot of identical consecutive values.
+However, it can be improved earlier.
+
+FLAG RLE
+Instead of assuming all data follows the ('number of items' 'item') format, in this system data following that format must be preceeded and followed by a certain value (usually 255).
+
+DICTIONARY COMPRESSION
+Assigns indexes to unqiue words or phrases. These common words can be represented by single numbers, greatly decreasing file sie. The dictionary, however, must be saved alongside the file.
+This system works extremely well for large text files.
+
+ASSETS
+ - Ask mully for his music
+
